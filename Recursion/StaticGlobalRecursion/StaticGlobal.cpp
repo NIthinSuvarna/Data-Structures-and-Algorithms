@@ -10,7 +10,7 @@ int recFun(int n)
         var++;
         return recFun(n - 1) + var;
     }
-    return 0;  //v v imp, if this return is missed line 21 will return junk value.
+    return 0;  //v v imp, if this return is missed line 19 will return junk value.
 }
 
 int main()
